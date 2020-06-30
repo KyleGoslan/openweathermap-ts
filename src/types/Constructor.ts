@@ -1,8 +1,8 @@
 import { Unit, CountryCode } from './index'
 
 export interface Settings {
-  units?: Unit
-  language?: string
+  units: Unit
+  language: string
   [key: string]: string
 }
 
